@@ -1,0 +1,42 @@
+<!-- <ion-header no-border>
+  <ion-navbar transparent>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<!-- <ion-content [ion-fixed]>
+  <img [src]="moviedb.movies && moviedb.movies[0].poster_path" alt="">
+</ion-content> -->
+
+
+<ion-content>
+  <!-- <div ion-fixed> -->
+  <div ion-fixed>
+    <!-- <img [src]="moviedb.movies && moviedb.movies[0].poster_path"> -->
+
+    <ion-card>
+
+      <ion-row>
+        <ion-col col-1></ion-col>
+        <ion-col col-10>
+          <img [src]="moviedb.movies && moviedb.movies[0].poster_path">
+        </ion-col>
+        <ion-col col-1></ion-col>
+      </ion-row>
+
+      <!-- <img [src]="moviedb.movies && moviedb.movies[0].poster_path"> -->
+      <ion-card-content>
+        <ion-card-title>
+          Nine Inch Nails Live
+        </ion-card-title>
+        <p>
+          The most popular industrial group ever, and largely
+          responsible for bringing the music to a mass audience.
+        </p>
+      </ion-card-content>
+    </ion-card>
+
+  </div>
+</ion-content>
